@@ -1,0 +1,58 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+/* Container to center the content */
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #9231a1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+}
+
+/* Input field style */
+input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+/* Button style */
+button {
+    padding: 8px 16px;
+    background-color: #3f118f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: #5fb2bd;
+}
+
+/* List style */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item style */
+li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #c48daf;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
